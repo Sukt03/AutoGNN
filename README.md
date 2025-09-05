@@ -148,15 +148,15 @@ Easy to add new GNN architectures by extending the base classes in `models/gnn_m
 
 ```
 AutoGNN_Project/
-├── main.py                    # 🚀 Main execution pipeline
-├── utils.py                   # 🔧 Training and evaluation utilities  
-├── requirements.txt           # 📦 Project dependencies
-├── README.md                  # 📖 This file
+├── main.py                    #  Main execution pipeline
+├── utils.py                   #  Training and evaluation utilities  
+├── requirements.txt           #  Project dependencies
+├── README.md                  # This file
 ├── models/
-│   └── gnn_models.py         # 🧠 GNN architecture definitions
+│   └── gnn_models.py         #  GNN architecture definitions
 ├── search/
-│   └── search_algorithm.py   # 🔍 Neural Architecture Search implementation
-└── data/                     # 📊 Datasets (auto-created)
+│   └── search_algorithm.py   # Neural Architecture Search implementation
+└── data/                     #  Datasets (auto-created)
     ├── Cora/
     ├── CiteSeer/
     └── PubMed/
